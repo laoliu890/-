@@ -10,7 +10,7 @@ const BLOG = {
     '7287f2b111db82cab88e01327605f63d',
 
   // 🔥 推荐主题（转化 + 专业）
-  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo',
+THEME: 'hexo',
 
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN',
 
