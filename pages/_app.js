@@ -24,6 +24,9 @@ const ClerkProvider = dynamic(() =>
   import('@clerk/nextjs').then(m => m.ClerkProvider)
 )
 
+// Vercel Web Analytics
+import { Analytics } from '@vercel/analytics/next'
+
 /**
  * App挂载DOM 入口文件
  * @param {*} param0
@@ -68,6 +71,7 @@ const MyApp = ({ Component, pageProps }) => {
       ) : (
         content
       )}
+      <Analytics />
     </>
   )
 }
